@@ -47,7 +47,6 @@ h1 {
   padding: 20px;
   box-shadow: 10px 10px 40px gray;
   border-radius: 10px;
-  border-left: 10px solid;
 }
 h2 {
   font-size: 40px;
@@ -59,5 +58,17 @@ h2 {
 }
 
 #web-dev-experience {
-  
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan) 30;
+  border-image-slice: 1;
+}
+
+#full-stack-experience {
+  border-left: 7px solid;
+  border-image: linear-gradient(red, black) 30;
+  border-image-slice: 1;
+}
+
+footer p {
+  text-align: center;
 }
